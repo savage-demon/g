@@ -1,0 +1,6 @@
+10019  echo "# g" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:savage-demon/g.git\ngit push -u origin main
+10020  l
+10021  git checkout -b feature
+10022  vim
+10023  git commit --amend
+10024  lg
